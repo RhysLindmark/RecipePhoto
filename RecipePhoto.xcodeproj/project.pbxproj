@@ -15,13 +15,30 @@
 		2E61D20618D8CA9400D22BEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E61D20518D8CA9400D22BEB /* AppDelegate.m */; };
 		2E61D20918D8CA9400D22BEB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D20718D8CA9400D22BEB /* Main_iPhone.storyboard */; };
 		2E61D20C18D8CA9400D22BEB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D20A18D8CA9400D22BEB /* Main_iPad.storyboard */; };
-		2E61D20F18D8CA9400D22BEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E61D20E18D8CA9400D22BEB /* ViewController.m */; };
 		2E61D21118D8CA9400D22BEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D21018D8CA9400D22BEB /* Images.xcassets */; };
 		2E61D21818D8CA9500D22BEB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E61D21718D8CA9500D22BEB /* XCTest.framework */; };
 		2E61D21918D8CA9500D22BEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E61D1F518D8CA9400D22BEB /* Foundation.framework */; };
 		2E61D21A18D8CA9500D22BEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E61D1F918D8CA9400D22BEB /* UIKit.framework */; };
 		2E61D22218D8CA9500D22BEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D22018D8CA9500D22BEB /* InfoPlist.strings */; };
 		2E61D22418D8CA9500D22BEB /* RecipePhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E61D22318D8CA9500D22BEB /* RecipePhotoTests.m */; };
+		2E61D23218D8CD0D00D22BEB /* RecipeCollectionViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E61D23118D8CD0D00D22BEB /* RecipeCollectionViewController2.m */; };
+		2E61D24418D8CEC400D22BEB /* angry_birds_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D23318D8CEC400D22BEB /* angry_birds_cake.jpg */; };
+		2E61D24518D8CEC400D22BEB /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D23418D8CEC400D22BEB /* creme_brelee.jpg */; };
+		2E61D24618D8CEC400D22BEB /* egg_benedict.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D23518D8CEC400D22BEB /* egg_benedict.jpg */; };
+		2E61D24718D8CEC400D22BEB /* full_breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D23618D8CEC400D22BEB /* full_breakfast.jpg */; };
+		2E61D24818D8CEC400D22BEB /* green_tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D23718D8CEC400D22BEB /* green_tea.jpg */; };
+		2E61D24918D8CEC400D22BEB /* ham_and_cheese_panini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D23818D8CEC400D22BEB /* ham_and_cheese_panini.jpg */; };
+		2E61D24A18D8CEC400D22BEB /* ham_and_egg_sandwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D23918D8CEC400D22BEB /* ham_and_egg_sandwich.jpg */; };
+		2E61D24B18D8CEC400D22BEB /* hamburger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D23A18D8CEC400D22BEB /* hamburger.jpg */; };
+		2E61D24C18D8CEC400D22BEB /* instant_noodle_with_egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D23B18D8CEC400D22BEB /* instant_noodle_with_egg.jpg */; };
+		2E61D24D18D8CEC400D22BEB /* japanese_noodle_with_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D23C18D8CEC400D22BEB /* japanese_noodle_with_pork.jpg */; };
+		2E61D24E18D8CEC400D22BEB /* mushroom_risotto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D23D18D8CEC400D22BEB /* mushroom_risotto.jpg */; };
+		2E61D24F18D8CEC400D22BEB /* noodle_with_bbq_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D23E18D8CEC400D22BEB /* noodle_with_bbq_pork.jpg */; };
+		2E61D25018D8CEC400D22BEB /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D23F18D8CEC400D22BEB /* photo-frame.png */; };
+		2E61D25118D8CEC400D22BEB /* starbucks_coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D24018D8CEC400D22BEB /* starbucks_coffee.jpg */; };
+		2E61D25218D8CEC400D22BEB /* thai_shrimp_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D24118D8CEC400D22BEB /* thai_shrimp_cake.jpg */; };
+		2E61D25318D8CEC400D22BEB /* vegetable_curry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D24218D8CEC400D22BEB /* vegetable_curry.jpg */; };
+		2E61D25418D8CEC400D22BEB /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D24318D8CEC400D22BEB /* white_chocolate_donut.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +64,31 @@
 		2E61D20518D8CA9400D22BEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2E61D20818D8CA9400D22BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		2E61D20B18D8CA9400D22BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		2E61D20D18D8CA9400D22BEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2E61D20E18D8CA9400D22BEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2E61D21018D8CA9400D22BEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2E61D21618D8CA9500D22BEB /* RecipePhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipePhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E61D21718D8CA9500D22BEB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2E61D21F18D8CA9500D22BEB /* RecipePhotoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RecipePhotoTests-Info.plist"; sourceTree = "<group>"; };
 		2E61D22118D8CA9500D22BEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2E61D22318D8CA9500D22BEB /* RecipePhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipePhotoTests.m; sourceTree = "<group>"; };
+		2E61D23018D8CD0D00D22BEB /* RecipeCollectionViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeCollectionViewController2.h; sourceTree = "<group>"; };
+		2E61D23118D8CD0D00D22BEB /* RecipeCollectionViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeCollectionViewController2.m; sourceTree = "<group>"; };
+		2E61D23318D8CEC400D22BEB /* angry_birds_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_birds_cake.jpg; sourceTree = "<group>"; };
+		2E61D23418D8CEC400D22BEB /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = creme_brelee.jpg; sourceTree = "<group>"; };
+		2E61D23518D8CEC400D22BEB /* egg_benedict.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = egg_benedict.jpg; sourceTree = "<group>"; };
+		2E61D23618D8CEC400D22BEB /* full_breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = full_breakfast.jpg; sourceTree = "<group>"; };
+		2E61D23718D8CEC400D22BEB /* green_tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green_tea.jpg; sourceTree = "<group>"; };
+		2E61D23818D8CEC400D22BEB /* ham_and_cheese_panini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ham_and_cheese_panini.jpg; sourceTree = "<group>"; };
+		2E61D23918D8CEC400D22BEB /* ham_and_egg_sandwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ham_and_egg_sandwich.jpg; sourceTree = "<group>"; };
+		2E61D23A18D8CEC400D22BEB /* hamburger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamburger.jpg; sourceTree = "<group>"; };
+		2E61D23B18D8CEC400D22BEB /* instant_noodle_with_egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instant_noodle_with_egg.jpg; sourceTree = "<group>"; };
+		2E61D23C18D8CEC400D22BEB /* japanese_noodle_with_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japanese_noodle_with_pork.jpg; sourceTree = "<group>"; };
+		2E61D23D18D8CEC400D22BEB /* mushroom_risotto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mushroom_risotto.jpg; sourceTree = "<group>"; };
+		2E61D23E18D8CEC400D22BEB /* noodle_with_bbq_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noodle_with_bbq_pork.jpg; sourceTree = "<group>"; };
+		2E61D23F18D8CEC400D22BEB /* photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame.png"; sourceTree = "<group>"; };
+		2E61D24018D8CEC400D22BEB /* starbucks_coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starbucks_coffee.jpg; sourceTree = "<group>"; };
+		2E61D24118D8CEC400D22BEB /* thai_shrimp_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thai_shrimp_cake.jpg; sourceTree = "<group>"; };
+		2E61D24218D8CEC400D22BEB /* vegetable_curry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetable_curry.jpg; sourceTree = "<group>"; };
+		2E61D24318D8CEC400D22BEB /* white_chocolate_donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white_chocolate_donut.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +151,9 @@
 				2E61D20418D8CA9400D22BEB /* AppDelegate.h */,
 				2E61D20518D8CA9400D22BEB /* AppDelegate.m */,
 				2E61D20718D8CA9400D22BEB /* Main_iPhone.storyboard */,
+				2E61D23018D8CD0D00D22BEB /* RecipeCollectionViewController2.h */,
+				2E61D23118D8CD0D00D22BEB /* RecipeCollectionViewController2.m */,
 				2E61D20A18D8CA9400D22BEB /* Main_iPad.storyboard */,
-				2E61D20D18D8CA9400D22BEB /* ViewController.h */,
-				2E61D20E18D8CA9400D22BEB /* ViewController.m */,
 				2E61D21018D8CA9400D22BEB /* Images.xcassets */,
 				2E61D1FC18D8CA9400D22BEB /* Supporting Files */,
 			);
@@ -129,6 +163,7 @@
 		2E61D1FC18D8CA9400D22BEB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2E61D25518D8CFEA00D22BEB /* FoodImages */,
 				2E61D1FD18D8CA9400D22BEB /* RecipePhoto-Info.plist */,
 				2E61D1FE18D8CA9400D22BEB /* InfoPlist.strings */,
 				2E61D20118D8CA9400D22BEB /* main.m */,
@@ -153,6 +188,30 @@
 				2E61D22018D8CA9500D22BEB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E61D25518D8CFEA00D22BEB /* FoodImages */ = {
+			isa = PBXGroup;
+			children = (
+				2E61D23318D8CEC400D22BEB /* angry_birds_cake.jpg */,
+				2E61D23418D8CEC400D22BEB /* creme_brelee.jpg */,
+				2E61D23518D8CEC400D22BEB /* egg_benedict.jpg */,
+				2E61D23618D8CEC400D22BEB /* full_breakfast.jpg */,
+				2E61D23718D8CEC400D22BEB /* green_tea.jpg */,
+				2E61D23818D8CEC400D22BEB /* ham_and_cheese_panini.jpg */,
+				2E61D23918D8CEC400D22BEB /* ham_and_egg_sandwich.jpg */,
+				2E61D23A18D8CEC400D22BEB /* hamburger.jpg */,
+				2E61D23B18D8CEC400D22BEB /* instant_noodle_with_egg.jpg */,
+				2E61D23C18D8CEC400D22BEB /* japanese_noodle_with_pork.jpg */,
+				2E61D23D18D8CEC400D22BEB /* mushroom_risotto.jpg */,
+				2E61D23E18D8CEC400D22BEB /* noodle_with_bbq_pork.jpg */,
+				2E61D23F18D8CEC400D22BEB /* photo-frame.png */,
+				2E61D24018D8CEC400D22BEB /* starbucks_coffee.jpg */,
+				2E61D24118D8CEC400D22BEB /* thai_shrimp_cake.jpg */,
+				2E61D24218D8CEC400D22BEB /* vegetable_curry.jpg */,
+				2E61D24318D8CEC400D22BEB /* white_chocolate_donut.jpg */,
+			);
+			name = FoodImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,10 +290,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E61D24C18D8CEC400D22BEB /* instant_noodle_with_egg.jpg in Resources */,
+				2E61D24918D8CEC400D22BEB /* ham_and_cheese_panini.jpg in Resources */,
+				2E61D24F18D8CEC400D22BEB /* noodle_with_bbq_pork.jpg in Resources */,
+				2E61D24B18D8CEC400D22BEB /* hamburger.jpg in Resources */,
+				2E61D24418D8CEC400D22BEB /* angry_birds_cake.jpg in Resources */,
 				2E61D20C18D8CA9400D22BEB /* Main_iPad.storyboard in Resources */,
+				2E61D24A18D8CEC400D22BEB /* ham_and_egg_sandwich.jpg in Resources */,
 				2E61D21118D8CA9400D22BEB /* Images.xcassets in Resources */,
+				2E61D24E18D8CEC400D22BEB /* mushroom_risotto.jpg in Resources */,
+				2E61D25318D8CEC400D22BEB /* vegetable_curry.jpg in Resources */,
+				2E61D25218D8CEC400D22BEB /* thai_shrimp_cake.jpg in Resources */,
+				2E61D25418D8CEC400D22BEB /* white_chocolate_donut.jpg in Resources */,
 				2E61D20918D8CA9400D22BEB /* Main_iPhone.storyboard in Resources */,
+				2E61D25018D8CEC400D22BEB /* photo-frame.png in Resources */,
 				2E61D20018D8CA9400D22BEB /* InfoPlist.strings in Resources */,
+				2E61D25118D8CEC400D22BEB /* starbucks_coffee.jpg in Resources */,
+				2E61D24618D8CEC400D22BEB /* egg_benedict.jpg in Resources */,
+				2E61D24818D8CEC400D22BEB /* green_tea.jpg in Resources */,
+				2E61D24718D8CEC400D22BEB /* full_breakfast.jpg in Resources */,
+				2E61D24518D8CEC400D22BEB /* creme_brelee.jpg in Resources */,
+				2E61D24D18D8CEC400D22BEB /* japanese_noodle_with_pork.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +329,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E61D20F18D8CA9400D22BEB /* ViewController.m in Sources */,
 				2E61D20618D8CA9400D22BEB /* AppDelegate.m in Sources */,
 				2E61D20218D8CA9400D22BEB /* main.m in Sources */,
+				2E61D23218D8CD0D00D22BEB /* RecipeCollectionViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +546,7 @@
 				2E61D22918D8CA9500D22BEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E61D22A18D8CA9500D22BEB /* Build configuration list for PBXNativeTarget "RecipePhotoTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +555,7 @@
 				2E61D22C18D8CA9500D22BEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
